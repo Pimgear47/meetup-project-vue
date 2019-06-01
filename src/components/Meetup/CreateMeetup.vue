@@ -2,4 +2,4 @@
     <div>
         <p>The Create Meetup page</p>
     </div>
-</tempplate>
+</template>
