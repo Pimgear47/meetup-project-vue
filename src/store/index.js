@@ -9,19 +9,25 @@ export const store = new Vuex.Store({
                 imageUrl: "http://www.nationsonline.org/gallery/USA/Times-Square-New-York.jpg",
                 id: "asdfff1ssd",
                 title: "Meetup in New York",
-                date: '2019-07-17'
+                date: new Date,
+                location: 'The New York tower',
+                description: 'If you love New York, music and people. Join with us!'
             },
             {
                 imageUrl: "https://www.sbb.ch/content/dam/internet/sharedimages/ff-uebersichtsseiten/Lyria.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
                 id: "asdsadsadff1ssd",
                 title: "Meetup in Paris",
-                date: '2019-07-19'
+                date: new Date,
+                location: 'The paris in love',
+                description: 'Paris is the capital of France and the country largest city. It is situated on the river Seine, in northern France, at the heart of the Île-de-France region. If you love paris, music and people. Join with us!'
             },
             {
                 imageUrl: "https://ramboll.com/-/media/images/environ/countries/singapore-merlion-getty-1360x765.jpg?h=765&la=en&w=1360",
                 id: "asdffdaff1ssd",
                 title: "Meetup in Singapore",
-                date: '2019-07-23'
+                date: new Date,
+                location: 'The spy cafe',
+                description: 'If you love Singapore, music and people. Join with us!'
             }
         ],
         user: {
